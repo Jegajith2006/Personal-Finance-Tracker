@@ -1,0 +1,80 @@
+.transactions-container {
+  padding: 20px;
+}
+
+.transactions-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.transactions-form input,
+.transactions-form select {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.transactions-form button {
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #6d2694;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+}
+
+.transactions-table th,
+.transactions-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.transactions-table th {
+  background: #f4f4f4;
+  text-align: left;
+}
+
+.transactions-table td {
+  border-bottom: 1px solid #eee;
+}
+
+.income {
+  color: green;
+  font-weight: bold;
+}
+
+.expense {
+  color: red;
+  font-weight: bold;
+}
+
+.transactions-table button {
+  margin-right: 5px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.transactions-table .edit-btn {
+  background: #6d2694;
+  color: white;
+}
+
+.transactions-table .save-btn {
+  background: green;
+  color: white;
+}
+
+.transactions-table .delete-btn {
+  background: red;
+  color: white;
+}
